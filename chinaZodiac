@@ -1,0 +1,52 @@
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Doğum yılınızı giriniz: ");
+        int burc = input.nextInt();
+
+        if(burc% 12==0) {
+            System.out.println("Zodyak Burcunuz = Maymun") ;
+        }
+
+        else if(burc%12== 1) {
+            System.out.println("Zodyak Burcunuz = Köpek " );
+        }
+        else if(burc%12== 2) {
+            System.out.println("Zodyak Burcunuz = Köpek " );
+        }
+        else if(burc%12== 3) {
+            System.out.println("Zodyak Burcunuz = Domuz");
+        }
+        else if(burc%12== 4) {
+            System.out.println("Zodyak Burcunuz = Fare ");
+        }
+        else if( burc%12== 5) {
+            System.out.println("Zodyak Burcunuz = Öküz");
+        }
+        else if( burc%12== 6) {
+            System.out.println("Zodyak Burcunuz = Kaplan");
+        }
+        else if( burc%12== 7) {
+            System.out.println("Zodyak Burcunuz = Tavşan");
+        }
+        else if( burc%12== 8) {
+            System.out.println("Zodyak Burcunuz = Ejderha");
+        }
+        else if( burc%12== 9) {
+            System.out.println("Zodyak Burcunuz = Yılan");
+        }
+        else if( burc%12== 10) {
+            System.out.println("Zodyak Burcunuz = At");
+        }else if( burc%12== 11) {
+            System.out.println("Zodyak Burcunuz = Koyun");
+        }
+        else {
+            System.out.println("Hatalı giriş yaptınız");
+        }
+    }
+}
